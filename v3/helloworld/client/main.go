@@ -6,7 +6,7 @@ import (
 	"github.com/asim/go-micro/plugins/client/grpc/v3"
 	"github.com/asim/go-micro/v3"
 	"github.com/asim/go-micro/v3/logger"
-	pb "github.com/xpunch/go-micro-examples/v3/helloworld/proto"
+	pb "github.com/xpunch/go-micro-example/v3/helloworld/proto"
 )
 
 func main() {

@@ -2,7 +2,7 @@
 This project demonostrates how to use go-micro to run your application.
 
 ## Go-Micro V2
-[1.Hello World](https://github.com/xpunch/go-micro-example/tree/main/v2/helloworld)
+* [1.Hello World](https://github.com/xpunch/go-micro-example/tree/main/v2/helloworld)
 
 ## Go-Micro V3
 All examples are based on go-micro v3.
@@ -18,5 +18,5 @@ go install github.com/asim/go-micro/cmd/protoc-gen-micro/v3@latest
 ```
 
 ### Examples
-[1.Hello World](https://github.com/xpunch/go-micro-example/tree/main/v3/helloworld)
-[2.Gateway](https://github.com/xpunch/go-micro-example/tree/main/v3/gateway)
+* [1.Hello World](https://github.com/xpunch/go-micro-example/tree/main/v3/helloworld)
+* [2.Gateway](https://github.com/xpunch/go-micro-example/tree/main/v3/gateway)
