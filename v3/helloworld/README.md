@@ -1,4 +1,7 @@
 # Hello World
+This example demonstrates how to write grpc server and client.
+> 1. Generate protobuf files.
+> 2. Implement your service, and register with micro service.
 
 ## Protobuf
 ```
@@ -7,12 +10,10 @@ protoc --go_out=proto --micro_out=proto proto/helloworld.proto
 
 ## Run Server
 ```
-cd server
-go run main.go --server_name helloworld
+go run server/main.go --server_name helloworld
 ```
 
 ## Run Client
 ```
-cd client
-go run main.go
+go run client/main.go
 ```
