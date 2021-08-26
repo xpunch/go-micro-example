@@ -5,24 +5,17 @@ import (
 	"io"
 	"strings"
 
-	"github.com/asim/go-micro/plugins/client/grpc/v3"
-	_ "github.com/asim/go-micro/plugins/registry/etcd/v3"
-	"github.com/asim/go-micro/plugins/server/http/v3"
-	"github.com/asim/go-micro/v3"
-	"github.com/asim/go-micro/v3/client"
-	"github.com/asim/go-micro/v3/logger"
-	"github.com/asim/go-micro/v3/registry"
 	"github.com/gin-gonic/gin"
+	"github.com/micro/go-micro/v2"
+	"github.com/micro/go-micro/v2/client"
+	"github.com/micro/go-micro/v2/logger"
+	"github.com/micro/go-micro/v2/registry"
+	"github.com/micro/go-micro/v2/web"
 )
 
 func main() {
-	srv := micro.NewService(
-		micro.Server(http.NewServer()),
-		micro.Client(grpc.NewClient()),
-		micro.Name("gateway"),
-		micro.Address(":8080"),
-	)
-	srv.Init()
+	srv := micro.NewService()
+	s := web.NewService(web.MicroService(srv), web.Name("gateway"), web.Address(":8080"))
 	router := gin.New()
 	router.Use(gin.Recovery())
 	router.Use(gin.Logger())
@@ -71,10 +64,8 @@ func main() {
 		}
 		ctx.JSON(200, nodes)
 	})
-	if err := micro.RegisterHandler(srv.Server(), router); err != nil {
-		logger.Fatal(err)
-	}
-	if err := srv.Run(); err != nil {
+	s.Init(web.Handler(router))
+	if err := s.Run(); err != nil {
 		logger.Fatal(err)
 	}
 }

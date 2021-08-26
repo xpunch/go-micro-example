@@ -20,3 +20,4 @@ go install github.com/asim/go-micro/cmd/protoc-gen-micro/v3@latest
 ### Examples
 * [1.Hello World](https://github.com/xpunch/go-micro-example/tree/main/v3/helloworld)
 * [2.Gateway](https://github.com/xpunch/go-micro-example/tree/main/v3/gateway)
+* [3.ETCD](https://github.com/xpunch/go-micro-example/tree/main/v3/etcd)
