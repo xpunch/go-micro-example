@@ -14,6 +14,7 @@ All examples are based on go-micro v3.
 - [2.API Gateway](https://github.com/xpunch/go-micro-example/tree/main/v3/gateway)
 - [3.ETCD](https://github.com/xpunch/go-micro-example/tree/main/v3/etcd)
 - [4.Web](https://github.com/xpunch/go-micro-example/tree/main/v3/web)
+- [4.Event](https://github.com/xpunch/go-micro-example/tree/main/v3/event)
 
 ### Tools
 
