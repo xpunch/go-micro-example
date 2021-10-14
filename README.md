@@ -30,3 +30,9 @@ go install github.com/micro/micro/v3@latest
 go install github.com/golang/protobuf/protoc-gen-go@latest
 go install github.com/asim/go-micro/cmd/protoc-gen-micro/v3@latest
 ```
+
+
+### Community
+```
+QQ Group: 953973712
+```
