@@ -3,15 +3,15 @@ module github.com/xpunch/go-micro-example/v3
 go 1.17
 
 require (
-	github.com/asim/go-micro/plugins/broker/kafka/v3 v3.0.0-20210924081004-8c39b1e1204d
-	github.com/asim/go-micro/plugins/client/grpc/v3 v3.0.0-20210824071433-49eccbc85a0f
-	github.com/asim/go-micro/plugins/registry/etcd/v3 v3.0.0-20210824071433-49eccbc85a0f
-	github.com/asim/go-micro/plugins/server/grpc/v3 v3.0.0-20210824071433-49eccbc85a0f
-	github.com/asim/go-micro/plugins/server/http/v3 v3.0.0-20210824071433-49eccbc85a0f
-	github.com/asim/go-micro/v3 v3.6.0
+	github.com/asim/go-micro/plugins/broker/kafka/v3 v3.7.0
+	github.com/asim/go-micro/plugins/client/grpc/v3 v3.7.0
+	github.com/asim/go-micro/plugins/registry/etcd/v3 v3.7.0
+	github.com/asim/go-micro/plugins/server/grpc/v3 v3.7.0
+	github.com/asim/go-micro/plugins/server/http/v3 v3.7.0
+	github.com/asim/go-micro/v3 v3.7.0
 	github.com/gin-gonic/gin v1.7.4
 	github.com/golang/protobuf v1.5.2
-	github.com/google/uuid v1.2.0
+	github.com/google/uuid v1.3.0
 	google.golang.org/protobuf v1.27.1
 )
 
@@ -52,7 +52,6 @@ require (
 	github.com/klauspost/compress v1.12.2 // indirect
 	github.com/leodido/go-urn v1.2.0 // indirect
 	github.com/mattn/go-isatty v0.0.12 // indirect
-	github.com/micro/cli/v2 v2.1.2 // indirect
 	github.com/miekg/dns v1.1.43 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/hashstructure v1.1.0 // indirect
@@ -68,6 +67,7 @@ require (
 	github.com/sergi/go-diff v1.1.0 // indirect
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
 	github.com/ugorji/go/codec v1.1.7 // indirect
+	github.com/urfave/cli/v2 v2.3.0 // indirect
 	github.com/xanzy/ssh-agent v0.3.0 // indirect
 	go.etcd.io/etcd/api/v3 v3.5.0 // indirect
 	go.etcd.io/etcd/client/pkg/v3 v3.5.0 // indirect
