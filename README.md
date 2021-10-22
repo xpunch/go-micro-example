@@ -18,6 +18,7 @@ All examples are based on go-micro v3.
 - [3.ETCD](https://github.com/xpunch/go-micro-example/tree/main/v3/etcd)
 - [4.Web](https://github.com/xpunch/go-micro-example/tree/main/v3/web)
 - [5.Event](https://github.com/xpunch/go-micro-example/tree/main/v3/event)
+- [6.Stream](https://github.com/xpunch/go-micro-example/tree/main/v3/stream)
 
 ### Protobuf(https://github.com/protocolbuffers/protobuf/releases)
 
