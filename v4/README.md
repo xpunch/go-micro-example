@@ -5,7 +5,7 @@ go get go-micro.dev/v4
 
 ### Protobuf
 ```
-go install github.com/asim/go-micro/cmd/protoc-gen-micro/v4@latest
+go install go-micro.dev/v4/cmd/protoc-gen-micro@4.4.0
 ```
 
 ### Micro CLI
