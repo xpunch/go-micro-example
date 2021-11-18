@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option go_package = ".;proto";
+
+message Message {
+	string id = 1;
+	string message = 2;
+	int64 timestamp = 3;
+}

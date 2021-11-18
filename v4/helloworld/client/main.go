@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/asim/go-micro/plugins/client/grpc/v4"
+	_ "github.com/asim/go-micro/plugins/client/grpc/v4"
 	_ "github.com/asim/go-micro/plugins/registry/etcd/v4"
 	pb "github.com/xpunch/go-micro-example/v4/helloworld/proto"
 	"go-micro.dev/v4"
@@ -11,7 +11,9 @@ import (
 )
 
 func main() {
-	srv := micro.NewService(micro.Client(grpc.NewClient()), micro.Name("client"))
+	srv := micro.NewService(
+		micro.Name("helloworld.cli"),
+	)
 	srv.Init()
 
 	greeter := pb.NewHelloworldService("helloworld", srv.Client())

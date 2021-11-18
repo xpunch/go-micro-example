@@ -24,6 +24,7 @@ All examples are based on go-micro v3.
 - [4.Web](https://github.com/xpunch/go-micro-example/tree/main/v3/web)
 - [5.Event](https://github.com/xpunch/go-micro-example/tree/main/v3/event)
 - [6.Stream](https://github.com/xpunch/go-micro-example/tree/main/v3/stream)
+- [7.Kafka(Broker)](https://github.com/xpunch/go-micro-example/tree/main/v3/kafka)
 
 ## Go-Micro V4
 
@@ -31,7 +32,8 @@ All examples are based on go-micro.dev/v4.
 
 - [Preparation](https://github.com/xpunch/go-micro-example/tree/main/v4/README.md)
 - [1.Hello World](https://github.com/xpunch/go-micro-example/tree/main/v4/helloworld)
-- [2.Stream(Support CloseSend)](https://github.com/xpunch/go-micro-example/tree/main/v3/stream)
+- [2.Stream(Support CloseSend)](https://github.com/xpunch/go-micro-example/tree/main/v4/stream)
+- [3.MQTT(Broker)](https://github.com/xpunch/go-micro-example/tree/main/v4/mqtt)
 
 ### Protobuf(https://github.com/protocolbuffers/protobuf/releases)
 

@@ -3,6 +3,7 @@ module github.com/xpunch/go-micro-example/v4
 go 1.17
 
 require (
+	github.com/asim/go-micro/plugins/broker/mqtt/v4 v4.0.0-20211111140334-799b8d6a6559
 	github.com/asim/go-micro/plugins/client/grpc/v4 v4.0.0-20211108090337-8e312801a106
 	github.com/asim/go-micro/plugins/registry/etcd/v4 v4.0.0-20211111140334-799b8d6a6559
 	github.com/asim/go-micro/plugins/server/grpc/v4 v4.0.0-20211111140334-799b8d6a6559
@@ -18,6 +19,7 @@ require (
 	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/coreos/go-systemd/v22 v22.3.2 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect
+	github.com/eclipse/paho.mqtt.golang v1.3.5 // indirect
 	github.com/emirpasic/gods v1.12.0 // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/go-git/gcfg v1.5.0 // indirect
@@ -26,6 +28,7 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/uuid v1.2.0 // indirect
+	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/kevinburke/ssh_config v0.0.0-20201106050909-4977a11b4351 // indirect
