@@ -7,6 +7,7 @@ require (
 	github.com/asim/go-micro/plugins/client/grpc/v4 v4.0.0-20211108090337-8e312801a106
 	github.com/asim/go-micro/plugins/registry/etcd/v4 v4.0.0-20211111140334-799b8d6a6559
 	github.com/asim/go-micro/plugins/server/grpc/v4 v4.0.0-20211111140334-799b8d6a6559
+	github.com/google/uuid v1.2.0
 	go-micro.dev/v4 v4.4.0
 	google.golang.org/protobuf v1.27.1
 )
@@ -27,7 +28,6 @@ require (
 	github.com/go-git/go-git/v5 v5.4.2 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/uuid v1.2.0 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect

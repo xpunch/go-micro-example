@@ -8,6 +8,7 @@ import (
 	pb "github.com/xpunch/go-micro-example/v4/helloworld/proto"
 	"go-micro.dev/v4"
 	"go-micro.dev/v4/logger"
+	"go-micro.dev/v4/metadata"
 )
 
 func main() {
@@ -17,12 +18,10 @@ func main() {
 	srv.Init()
 
 	greeter := pb.NewHelloworldService("helloworld.srv", srv.Client())
-	resp, err := greeter.Call(context.TODO(), &pb.Request{Name: "Client"})
+	ctx := metadata.Set(context.TODO(), "name", "World")
+	resp, err := greeter.Call(ctx, &pb.Request{})
 	if err != nil {
 		logger.Fatal(err)
 	}
 	logger.Info(resp)
-	if err := srv.Run(); err != nil {
-		logger.Fatal(err)
-	}
 }

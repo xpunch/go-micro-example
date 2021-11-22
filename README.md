@@ -34,6 +34,7 @@ All examples are based on go-micro.dev/v4.
 - [1.Hello World](https://github.com/xpunch/go-micro-example/tree/main/v4/helloworld)
 - [2.Stream(Support CloseSend)](https://github.com/xpunch/go-micro-example/tree/main/v4/stream)
 - [3.MQTT(Broker)](https://github.com/xpunch/go-micro-example/tree/main/v4/mqtt)
+- [4.Metadata](https://github.com/xpunch/go-micro-example/tree/main/v4/metadata)
 
 ### Protobuf(https://github.com/protocolbuffers/protobuf/releases)
 
