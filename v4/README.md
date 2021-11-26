@@ -12,3 +12,8 @@ go install go-micro.dev/v4/cmd/protoc-gen-micro@4.4.0
 ```
 go install github.com/asim/go-micro/cmd/micro@latest
 ```
+
+### Dashboard
+```
+go install github.com/xpunch/go-micro-dashboard@latest
+```

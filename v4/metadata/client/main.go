@@ -5,7 +5,7 @@ import (
 
 	_ "github.com/asim/go-micro/plugins/client/grpc/v4"
 	_ "github.com/asim/go-micro/plugins/registry/etcd/v4"
-	pb "github.com/xpunch/go-micro-example/v4/helloworld/proto"
+	pb "github.com/xpunch/go-micro-example/v4/proto"
 	"go-micro.dev/v4"
 	"go-micro.dev/v4/logger"
 	"go-micro.dev/v4/metadata"

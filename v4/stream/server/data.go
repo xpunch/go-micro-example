@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math"
 
-	pb "github.com/xpunch/go-micro-example/v4/stream/proto"
+	pb "github.com/xpunch/go-micro-example/v4/proto"
 )
 
 var features []*pb.Feature
