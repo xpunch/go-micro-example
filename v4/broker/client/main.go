@@ -8,6 +8,7 @@ import (
 
 	_ "github.com/asim/go-micro/plugins/broker/kafka/v4"
 	_ "github.com/asim/go-micro/plugins/broker/mqtt/v4"
+	_ "github.com/asim/go-micro/plugins/registry/etcd/v4"
 	"github.com/google/uuid"
 	pb "github.com/xpunch/go-micro-example/v4/proto"
 	"go-micro.dev/v4"

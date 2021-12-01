@@ -5,7 +5,7 @@ go get go-micro.dev/v4
 
 ### Protobuf
 ```
-go install go-micro.dev/v4/cmd/protoc-gen-micro@4.4.0
+go install go-micro.dev/v4/cmd/protoc-gen-micro@v4
 ```
 
 ### Micro CLI

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option go_package = "../proto";
+
+service StatisticsService {
+  rpc Statistics(StatisticsRequest) returns (StatisticsReply) {}
+}
+
+message StatisticsRequest { optional string method = 1; }
+
+message StatisticsReply { int64 access_count = 1; }
+
+message AccessEvent {
+  uint32 status = 1;
+  string method = 2;
+  string path = 3;
+  string ip = 4;
+  int64 latency = 5;
+  int64 timestamp = 6;
+}

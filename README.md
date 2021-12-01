@@ -35,6 +35,10 @@ All examples are based on go-micro.dev/v4.
 - [2.Stream(Support CloseSend)](https://github.com/xpunch/go-micro-example/tree/main/v4/stream)
 - [3.Broker](https://github.com/xpunch/go-micro-example/tree/main/v4/mqtt)
 - [4.Metadata](https://github.com/xpunch/go-micro-example/tree/main/v4/metadata)
+- [5.Gateway](https://github.com/xpunch/go-micro-example/tree/main/v4/gateway)
+- [6.Event](https://github.com/xpunch/go-micro-example/tree/main/v4/event)
+- [7.Hystrix](https://github.com/xpunch/go-micro-example/tree/main/v4/hystrix)
+- [8.Tracing(jaeger)](https://github.com/xpunch/go-micro-example/tree/main/v4/jaeger)
 
 ## [Go Micro Dashboard](https://github.com/xpunch/go-micro-dashboard)
 
