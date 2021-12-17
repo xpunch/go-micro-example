@@ -20,11 +20,12 @@ All examples are based on go-micro v3.
 - [Preparation](https://github.com/xpunch/go-micro-example/tree/main/v3/README.md)
 - [1.Hello World](https://github.com/xpunch/go-micro-example/tree/main/v3/helloworld)
 - [2.API Gateway](https://github.com/xpunch/go-micro-example/tree/main/v3/gateway)
-- [3.ETCD](https://github.com/xpunch/go-micro-example/tree/main/v3/etcd)
+- [3.ETCD(Registry)](https://github.com/xpunch/go-micro-example/tree/main/v3/registry/etcd)
 - [4.Web](https://github.com/xpunch/go-micro-example/tree/main/v3/web)
 - [5.Event](https://github.com/xpunch/go-micro-example/tree/main/v3/event)
 - [6.Stream](https://github.com/xpunch/go-micro-example/tree/main/v3/stream)
-- [7.Kafka(Broker)](https://github.com/xpunch/go-micro-example/tree/main/v3/kafka)
+- [7.Kafka(Broker)](https://github.com/xpunch/go-micro-example/tree/main/v3/broker/kafka)
+- [8.ETCD(Config)](https://github.com/xpunch/go-micro-example/tree/main/v3/config/etcd)
 
 ## [Go Micro V4](https://github.com/xpunch/go-micro-example/tree/main/v4)
 
