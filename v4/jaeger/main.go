@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 
-	_ "github.com/asim/go-micro/plugins/client/grpc/v4"
-	_ "github.com/asim/go-micro/plugins/registry/etcd/v4"
-	mopentracing "github.com/asim/go-micro/plugins/wrapper/trace/opentracing/v4"
+	_ "github.com/go-micro/plugins/v4/client/grpc"
+	_ "github.com/go-micro/plugins/v4/registry/etcd"
+	mopentracing "github.com/go-micro/plugins/v4/wrapper/trace/opentracing"
 	"github.com/opentracing/opentracing-go"
 	jaegercfg "github.com/uber/jaeger-client-go/config"
 	pb "github.com/xpunch/go-micro-example/v4/proto"

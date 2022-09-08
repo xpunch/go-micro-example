@@ -3,7 +3,7 @@ package main
 import (
 	"sync"
 
-	mgrpc "github.com/asim/go-micro/plugins/server/grpc/v4"
+	mgrpc "github.com/go-micro/plugins/v4/server/grpc"
 	pb "github.com/xpunch/go-micro-example/v4/proto"
 	"go-micro.dev/v4"
 	"go-micro.dev/v4/logger"

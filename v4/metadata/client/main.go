@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	_ "github.com/asim/go-micro/plugins/client/grpc/v4"
-	_ "github.com/asim/go-micro/plugins/registry/etcd/v4"
+	_ "github.com/go-micro/plugins/v4/client/grpc"
+	_ "github.com/go-micro/plugins/v4/registry/etcd"
 	pb "github.com/xpunch/go-micro-example/v4/proto"
 	"go-micro.dev/v4"
 	"go-micro.dev/v4/logger"

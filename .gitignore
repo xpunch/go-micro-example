@@ -16,5 +16,5 @@
 .idea
 
 # Protobuf
-*.pb.go
-*.pb.micro.go
+# *.pb.go
+# *.pb.micro.go

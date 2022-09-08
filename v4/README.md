@@ -17,3 +17,11 @@ go install github.com/asim/go-micro/cmd/micro@latest
 ```
 go install github.com/xpunch/go-micro-dashboard@latest
 ```
+
+### Protobuf
+```
+protoc --go_out=proto --micro_out=proto proto/helloworld.proto
+protoc --go_out=proto --micro_out=proto proto/message.proto
+protoc --go_out=proto --micro_out=proto proto/route_guide.proto
+protoc --go_out=proto --micro_out=proto proto/statistics.proto
+```

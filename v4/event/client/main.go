@@ -3,9 +3,9 @@ package main
 import (
 	"time"
 
-	mgrpc "github.com/asim/go-micro/plugins/client/grpc/v4"
-	mhttp "github.com/asim/go-micro/plugins/server/http/v4"
 	"github.com/gin-gonic/gin"
+	mgrpc "github.com/go-micro/plugins/v4/client/grpc"
+	mhttp "github.com/go-micro/plugins/v4/server/http"
 	pb "github.com/xpunch/go-micro-example/v4/proto"
 	pbh "github.com/xpunch/go-micro-example/v4/proto"
 	"go-micro.dev/v4"

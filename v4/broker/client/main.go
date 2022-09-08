@@ -6,9 +6,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	_ "github.com/asim/go-micro/plugins/broker/kafka/v4"
-	_ "github.com/asim/go-micro/plugins/broker/mqtt/v4"
-	_ "github.com/asim/go-micro/plugins/registry/etcd/v4"
+	_ "github.com/go-micro/plugins/v4/broker/kafka"
+	_ "github.com/go-micro/plugins/v4/broker/mqtt"
+	_ "github.com/go-micro/plugins/v4/registry/etcd"
 	"github.com/google/uuid"
 	pb "github.com/xpunch/go-micro-example/v4/proto"
 	"go-micro.dev/v4"

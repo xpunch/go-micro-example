@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/asim/go-micro/plugins/client/grpc/v4"
+	"github.com/go-micro/plugins/v4/client/grpc"
 	pb "github.com/xpunch/go-micro-example/v4/proto"
 	"go-micro.dev/v4"
 	"go-micro.dev/v4/logger"

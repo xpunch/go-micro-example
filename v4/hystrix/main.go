@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	_ "github.com/asim/go-micro/plugins/client/grpc/v4"
-	_ "github.com/asim/go-micro/plugins/registry/etcd/v4"
-	mhystrix "github.com/asim/go-micro/plugins/wrapper/breaker/hystrix/v4"
+	_ "github.com/go-micro/plugins/v4/client/grpc"
+	_ "github.com/go-micro/plugins/v4/registry/etcd"
+	mhystrix "github.com/go-micro/plugins/v4/wrapper/breaker/hystrix"
 	pb "github.com/xpunch/go-micro-example/v4/proto"
 	"go-micro.dev/v4"
 	"go-micro.dev/v4/logger"
