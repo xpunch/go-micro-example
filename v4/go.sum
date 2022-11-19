@@ -216,8 +216,6 @@ github.com/go-micro/plugins/v4/server/http v1.1.0/go.mod h1:ZjVZi1l16RjzyT3IISir
 github.com/go-micro/plugins/v4/transport/grpc v1.1.0 h1:mXfDYfFQLnVDzjGY3o84oe4prfux9h8txsnA19dKsj8=
 github.com/go-micro/plugins/v4/wrapper/breaker/hystrix v1.1.0 h1:mFiBWY2FVaSIjGdnLBmXojOPgvLBiwCXrZg7cpQeQOw=
 github.com/go-micro/plugins/v4/wrapper/breaker/hystrix v1.1.0/go.mod h1:Gxz1Xx7bD9MKYYZiGPzICh7Sm2Q+VdHpDjWPemeGwIw=
-github.com/go-micro/plugins/v4/wrapper/trace/opentelemetry v1.1.0 h1:WFVVtGYd5hzptJdUwvhxs0WUSukKpXWNYweDL/nzySE=
-github.com/go-micro/plugins/v4/wrapper/trace/opentelemetry v1.1.0/go.mod h1:92SgULJr8UzYYg/9eAwxhSw9FYUdX8aFCRLkZ+rxC0w=
 github.com/go-micro/plugins/v4/wrapper/trace/opentracing v1.1.0 h1:IAXTJ+5T6Bb3/dtSg8QQ6WL9T/rP6j+EayXkdJwDPO4=
 github.com/go-micro/plugins/v4/wrapper/trace/opentracing v1.1.0/go.mod h1:Y7zit0rnSdiBCIisDwpYg3q6CJCdhWYP+t2AZkZdB6E=
 github.com/go-playground/assert/v2 v2.0.1 h1:MsBgLAaY856+nPRTKrp3/OZK38U/wa0CcBYNjji3q3A=
@@ -300,8 +298,7 @@ github.com/google/pprof v0.0.0-20200229191704-1ebb73c60ed3/go.mod h1:ZgVRPoUq/hf
 github.com/google/renameio v0.1.0/go.mod h1:KWCgfxg9yswjAJkECMjeO8J8rahYeXnNhOm40UhjYkI=
 github.com/google/uuid v1.1.1/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/google/uuid v1.1.2/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
-github.com/google/uuid v1.2.0 h1:qJYtXnJRWmpe7m/3XlyhrsLrEURqHRM2kxzoxXqyUDs=
-github.com/google/uuid v1.2.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=
 github.com/googleapis/gax-go/v2 v2.0.4/go.mod h1:0Wqv26UfaUD9n4G6kQubkQ+KchISgw+vpHVxEJEs9eg=
 github.com/googleapis/gax-go/v2 v2.0.5/go.mod h1:DWXyrwAJ9X0FpwwEdw+IPEYBICEFu5mhpdKc/us6bOk=
 github.com/gophercloud/gophercloud v0.15.1-0.20210202035223-633d73521055/go.mod h1:wRtmUelyIIv3CSSDI47aUwbs075O6i+LY+pXsKCBsb4=

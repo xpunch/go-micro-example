@@ -13,7 +13,7 @@ require (
 	github.com/go-micro/plugins/v4/wrapper/breaker/hystrix v1.1.0
 	github.com/go-micro/plugins/v4/wrapper/trace/opentelemetry v0.0.0
 	github.com/go-micro/plugins/v4/wrapper/trace/opentracing v1.1.0
-	github.com/google/uuid v1.2.0
+	github.com/google/uuid v1.3.0
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/uber/jaeger-client-go v2.30.0+incompatible
 	go-micro.dev/v4 v4.8.1
@@ -24,7 +24,6 @@ require (
 )
 
 replace github.com/go-micro/plugins/v4/wrapper/trace/opentelemetry => ../../../go/go-micro/plugins/v4/wrapper/trace/opentelemetry
-
 
 require (
 	github.com/HdrHistogram/hdrhistogram-go v1.1.2 // indirect
