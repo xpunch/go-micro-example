@@ -8,9 +8,8 @@ require (
 	github.com/asim/go-micro/plugins/registry/etcd/v3 v3.7.0
 	github.com/asim/go-micro/plugins/server/grpc/v3 v3.7.0
 	github.com/asim/go-micro/plugins/server/http/v3 v3.7.0
-	github.com/asim/go-micro/v3 v3.7.0
+	github.com/asim/go-micro/v3 v3.7.1
 	github.com/gin-gonic/gin v1.7.4
-	github.com/golang/protobuf v1.5.2
 	github.com/google/uuid v1.3.0
 	google.golang.org/protobuf v1.27.1
 )
@@ -38,6 +37,7 @@ require (
 	github.com/go-playground/universal-translator v0.17.0 // indirect
 	github.com/go-playground/validator/v10 v10.4.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
+	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/golang/snappy v0.0.3 // indirect
 	github.com/hashicorp/go-uuid v1.0.2 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
