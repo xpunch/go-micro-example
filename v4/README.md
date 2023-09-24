@@ -1,11 +1,17 @@
 # Go-Micro V4
 ```
-go get go-micro.dev/v4
+go get go-micro.dev/v4@latest
 ```
 
 ### Protobuf
+- Download protoc
 ```
-go install go-micro.dev/v4/cmd/protoc-gen-micro@v4
+https://github.com/protocolbuffers/protobuf/releases
+```
+- Generator
+```
+go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+go install github.com/go-micro/generator/cmd/protoc-gen-micro@latest
 ```
 
 ### Micro CLI
@@ -15,7 +21,7 @@ go install github.com/asim/go-micro/cmd/micro@latest
 
 ### Dashboard
 ```
-go install github.com/xpunch/go-micro-dashboard@latest
+go install github.com/go-micro/dashboard@latest
 ```
 
 ### Protobuf
